@@ -74,7 +74,7 @@ function Application() {
         <input type="file" id="imageFile" onChange={handleImageChange} />
         {imageUrl && (
           <div className="image-preview">
-            <img src={imageUrl} alt="Uploaded image" />
+            <img src={imageUrl} alt="Uploaded digit" />
           </div>
         )}
         <button type="submit">Predict Digit</button>
